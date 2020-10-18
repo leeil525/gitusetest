@@ -1,1 +1,14 @@
-abddsadasdlam,gl;sdgm,l;sd,
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+ssh-keygen -t rsa -C "605165376@qq.com"
+git init
+touch readme
+git status ./
+git add readme
+git commit -m "add readme"
+git remote add origin https://github.com/leeil525/gitusetest.git
+git branch -M main
+git push -u origin main
+
+
+git clone https://github.com/libgit2/libgit2 克隆
